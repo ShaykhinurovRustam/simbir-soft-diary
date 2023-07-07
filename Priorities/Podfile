@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Priorities' do
+  
+  use_frameworks!
+
+  pod 'SnapKit', '~> 5.0.0'
+
+  target 'PrioritiesTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'PrioritiesUITests' do
+    # Pods for testing
+  end
+
+end

@@ -1,0 +1,6 @@
+framework module Pods_PrioritiesTests {
+  umbrella header "Pods-PrioritiesTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
